@@ -1,0 +1,30 @@
+.App {
+  width: 85%;
+  margin: auto;
+  position: relative;
+}
+
+.slit_box {
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.split:first-child {
+  width: 60%;
+}
+
+.split:last-child {
+  width: 35%;
+  box-shadow: 0 0 20px grey;
+}
+
+.vision {
+  position: absolute;
+  width: 500px;
+  height: 450px;
+  right: -50px;
+  bottom: 0;
+  z-index: -1;
+}

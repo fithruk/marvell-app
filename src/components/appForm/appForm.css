@@ -1,0 +1,101 @@
+.form_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    box-shadow: 0 0 15px grey;
+}
+
+.form_wrapper-enter {
+    opacity: 0;
+  }
+.form_wrapper-enter-active {
+    opacity: 1;
+    transition: all 400ms;
+  }
+.form_wrapper-exit {
+    opacity: 1;
+  }
+.form_wrapper-exit-active {
+    opacity: 0;
+    transition: all 400ms;
+  }
+
+.form {
+    font-size: 20px;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.form_item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form_label, form_input {
+    width: 100%;
+}
+
+.form_input {
+    margin-top: 10px;
+    height: 30px;
+    box-shadow: 0 0 5px  rgb(117, 111, 111);
+}
+
+.form_btn_box {
+    height: max-content;
+}
+
+.form_button {
+    margin: 10px 0 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    background-image: url("../images/background_1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.form_button_to_char {
+    margin: 10px 0 10px 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    width: 150px;
+    height: 40px;
+    color: #ffffff;
+    background-image: url("../images/background_2.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+}
+
+.to_char_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+
+.form_error {
+    font-size: 16px;
+    color: red;
+    padding-top: 5px;
+}
+
+.form_success {
+    font-size: 16px;
+    color: green;
+    padding-top: 5px;
+}

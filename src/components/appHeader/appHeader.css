@@ -1,0 +1,136 @@
+
+.header {
+    padding-top: 40px;
+}
+
+.marvell_logo {
+    color: #9f0013;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.half_nav {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.half_nav:last-child {
+    justify-content: end;
+}
+
+.character_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    box-shadow: 0 0 20px gray;
+}
+
+.char_half {
+    width: 50%;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.char_img_box {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.char_img {
+    object-fit: contain;
+    width: 200px;
+    height: 200px;
+}
+
+.about_char {
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.desc {
+    padding-top: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    min-height: 114px;
+    
+}
+
+.buttons_box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 250px;
+}
+
+.button_char {
+    
+    width: 120px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s linear;
+    cursor: pointer;
+    color: #ffffff;
+    background-image: url("../images/background_1.png");
+    background-position: center;
+    background-size: cover;
+}
+
+
+.button_char:hover {
+    transform: translateY(-10px);
+}
+
+.button_char:active {
+    color: red;
+}
+
+
+.button_char:nth-child(2) {
+    background-image: url("../images/background_2.png");
+}
+
+.button_char:nth-child(3) {
+    margin-top: 30px;
+}
+
+.char_half:last-child {
+    display: block;
+    background-color: #232222;
+    color: #ffffff;
+    position: relative;
+}
+
+.title--mod {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.title--mod:nth-child(2) {
+    margin-top: 40px;
+}
+
+.molot {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    right: 0;
+    bottom: 30px;
+}
