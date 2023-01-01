@@ -22,7 +22,7 @@
 
 .vision {
   position: absolute;
-  width: 500px;
+  width: auto;
   height: 450px;
   right: -50px;
   bottom: 0;
